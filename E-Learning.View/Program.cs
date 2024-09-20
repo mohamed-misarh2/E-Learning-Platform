@@ -14,7 +14,7 @@ namespace E_Learning.View
 
             // Add services to the container.
 
-
+             
             builder.Services.AddDbContext<ELearningContext>(options =>
                options.UseSqlServer(builder.Configuration.GetConnectionString("Database")));
             builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<ELearningContext>();
