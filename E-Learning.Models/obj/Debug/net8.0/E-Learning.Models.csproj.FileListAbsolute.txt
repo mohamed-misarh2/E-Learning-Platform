@@ -1,0 +1,13 @@
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.csproj.AssemblyReference.cache
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.AssemblyInfoInputs.cache
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.AssemblyInfo.cs
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.csproj.CoreCompileInputs.cache
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.sourcelink.json
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\bin\Debug\net8.0\E-Learning.Models.deps.json
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\bin\Debug\net8.0\E-Learning.Models.dll
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\bin\Debug\net8.0\E-Learning.Models.pdb
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.dll
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\refint\E-Learning.Models.dll
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.pdb
+C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\ref\E-Learning.Models.dll

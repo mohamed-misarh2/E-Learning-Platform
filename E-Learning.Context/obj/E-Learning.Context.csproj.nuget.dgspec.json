@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Context\\E-Learning.Context.csproj": {}
+    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Context\\E-Learning.Context.csproj": {
+    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Context\\E-Learning.Context.csproj",
+        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj",
         "projectName": "E-Learning.Context",
-        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Context\\E-Learning.Context.csproj",
+        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj",
         "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Context\\obj\\",
+        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Models\\E-Learning.Models.csproj": {
-                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Models\\E-Learning.Models.csproj"
+              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
+                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Models\\E-Learning.Models.csproj": {
+    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Models\\E-Learning.Models.csproj",
+        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
         "projectName": "E-Learning.Models",
-        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Models\\E-Learning.Models.csproj",
+        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
         "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Models\\obj\\",
+        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {}
+    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
+    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Dtos\\E-Learning.Dtos.csproj",
+        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj",
         "projectName": "E-Learning.Dtos",
-        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Dtos\\E-Learning.Dtos.csproj",
+        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj",
         "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Dtos\\obj\\",
+        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",

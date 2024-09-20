@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a+VCocTi1p0E9N0JUN67gR1BW5ZzPH+75h319KZAFzhic9uTwb5YmvKWZdZR6PjfizW+T9lwUVmmaUGTfCLsZQ==",
+  "dgSpecHash": "1yxwarww5AtEwBxsAgktMyiKWhMLhbPwjG7kxT/d6Ws8qrp7Cx+5YrKmkeNk7++tmWjGIKrwcoeLyGIlQ3XpEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.View\\E-Learning.View.csproj",
+  "projectFilePath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.View\\E-Learning.View.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\A\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

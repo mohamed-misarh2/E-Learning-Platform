@@ -614,11 +614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Application\\E-Learning.Application.csproj",
+      "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj",
       "projectName": "E-Learning.Application",
-      "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Application\\E-Learning.Application.csproj",
+      "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj",
       "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Application\\obj\\",
+      "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -635,8 +635,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Models\\E-Learning.Models.csproj": {
-              "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Models\\E-Learning.Models.csproj"
+            "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
+              "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj"
             }
           }
         }

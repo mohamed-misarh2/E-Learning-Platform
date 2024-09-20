@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vk3R1Nt/qh1zYNz+taJMzoxatNkh9HIm9kQ//cs9ZaI/uZ4DhpMjNWCzbp/kB9FvhoiPSOuZzhyNP4Pc92YM8w==",
+  "dgSpecHash": "0pMevveCc+ucqJCNty1zTccr+YRxVmGVqmPxC1L06pCB4uNLXDyvKN6/TI6rY7z08xffAx/j/J8VdpjKXu77tQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Models\\E-Learning.Models.csproj",
+  "projectFilePath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.8\\microsoft.aspnetcore.cryptography.internal.8.0.8.nupkg.sha512",
     "C:\\Users\\A\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.8\\microsoft.aspnetcore.cryptography.keyderivation.8.0.8.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LIOx5kutx3akyVEJFXOp/Hx7XxK3G7uu+Kf9zP5uPPUYKXAIZq5/bCsCpkOphPdhzH7NRRjbRVhdynbmNZOzbw==",
+  "dgSpecHash": "MwoOAmxuvx1zD0pVgKj8uCmeZXOFLlmk2GSR1lIljg/bZ79eo+A8fWviQkYypiegKgbj4HDXNy8Y4Gs4HHphcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A\\source\\repos\\E-Learning\\E-Learning.Application\\E-Learning.Application.csproj",
+  "projectFilePath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\A\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.8\\microsoft.aspnetcore.cryptography.internal.8.0.8.nupkg.sha512",

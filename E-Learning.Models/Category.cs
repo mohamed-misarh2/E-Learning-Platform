@@ -12,6 +12,6 @@ namespace E_Learning.Models
         public string Slug { get; set; } = string.Empty;
 
         // Relationships
-        public ICollection<SubCategory> Subcategories { get; set; } = new List<Subcategory>();
+        public ICollection<SubCategory> Subcategories { get; set; } = new List<SubCategory>();
     }
 }
