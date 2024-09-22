@@ -1693,6 +1693,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "E-Learning.Dtos": "1.0.0",
           "E-Learning.Models": "1.0.0"
         },
         "compile": {

@@ -28,6 +28,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
+                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj"
+              },
               "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
                 "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj"
               }
