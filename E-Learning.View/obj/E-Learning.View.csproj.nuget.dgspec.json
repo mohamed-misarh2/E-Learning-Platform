@@ -29,6 +29,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
+                "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj"
+              },
               "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
                 "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj"
               }

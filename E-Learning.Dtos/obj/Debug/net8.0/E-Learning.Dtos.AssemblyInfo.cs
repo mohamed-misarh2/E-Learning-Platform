@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("E-Learning.Dtos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91c6c8976c47bff873468247c7d8d24de327b2f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b95d890291770a08547de66749ce524afae20b95")]
 [assembly: System.Reflection.AssemblyProductAttribute("E-Learning.Dtos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("E-Learning.Dtos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

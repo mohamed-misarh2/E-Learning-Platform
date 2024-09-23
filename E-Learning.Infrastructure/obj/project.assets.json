@@ -338,6 +338,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "E-Learning.Dtos": "1.0.0",
           "E-Learning.Models": "1.0.0"
         },
         "compile": {
@@ -359,6 +360,16 @@
         },
         "runtime": {
           "bin/placeholder/E-Learning.Context.dll": {}
+        }
+      },
+      "E-Learning.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/E-Learning.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/E-Learning.Dtos.dll": {}
         }
       },
       "E-Learning.Models/1.0.0": {
@@ -889,6 +900,11 @@
       "type": "project",
       "path": "../E-Learning.Context/E-Learning.Context.csproj",
       "msbuildProject": "../E-Learning.Context/E-Learning.Context.csproj"
+    },
+    "E-Learning.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../E-Learning.Dtos/E-Learning.Dtos.csproj",
+      "msbuildProject": "../E-Learning.Dtos/E-Learning.Dtos.csproj"
     },
     "E-Learning.Models/1.0.0": {
       "type": "project",
