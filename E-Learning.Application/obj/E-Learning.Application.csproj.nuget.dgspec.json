@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj": {}
+    "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj": {
+    "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj",
+        "projectUniqueName": "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj",
         "projectName": "E-Learning.Application",
-        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj",
-        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\obj\\",
+        "projectPath": "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
-                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj"
+              "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
+                "projectPath": "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj"
               },
-              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
-                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj"
+              "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
+                "projectPath": "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj"
               }
             }
           }
@@ -41,6 +41,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,21 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
+    "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj",
+        "projectUniqueName": "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj",
         "projectName": "E-Learning.Dtos",
-        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj",
-        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\obj\\",
+        "projectPath": "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,6 +107,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -123,21 +133,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
+    "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
+        "projectUniqueName": "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
         "projectName": "E-Learning.Models",
-        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
-        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\obj\\",
+        "projectPath": "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "D:\\المشاريع\\E-Learning-Platform\\E-Learning.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -157,6 +167,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -184,7 +199,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

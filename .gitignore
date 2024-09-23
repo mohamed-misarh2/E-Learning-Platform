@@ -1,6 +1,26 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Ignore Visual Studio temporary files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
 
-/.vs/E-Learning/v17
-/.vs/E-Learning/FileContentIndex
+# Ignore build output directories
+/bin/
+/obj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+project.nuget.cache
+
+# Ignore debug files
+Debug/
+Debug*/ 
+
+# Ignore other system or metadata files
+e-learning.metadata/
+e-learning.projects.v20.json
+
+# Ignore database cache files
+*.v2
