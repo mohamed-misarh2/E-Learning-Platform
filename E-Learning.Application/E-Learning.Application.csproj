@@ -8,14 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\E-Learning.Dtos\E-Learning.Dtos.csproj" />
     <ProjectReference Include="..\E-Learning.Models\E-Learning.Models.csproj" />
   </ItemGroup>
 
