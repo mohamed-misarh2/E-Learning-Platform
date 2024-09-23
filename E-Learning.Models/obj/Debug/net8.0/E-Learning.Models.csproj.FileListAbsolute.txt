@@ -11,3 +11,16 @@ C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E
 C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\refint\E-Learning.Models.dll
 C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.pdb
 C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\ref\E-Learning.Models.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\bin\Debug\net8.0\E-Learning.Models.deps.json
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\bin\Debug\net8.0\E-Learning.Models.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\bin\Debug\net8.0\E-Learning.Models.pdb
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.csproj.AssemblyReference.cache
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.AssemblyInfoInputs.cache
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.AssemblyInfo.cs
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.csproj.CoreCompileInputs.cache
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.sourcelink.json
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\refint\E-Learning.Models.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\E-Learning.Models.pdb
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Models\obj\Debug\net8.0\ref\E-Learning.Models.dll

@@ -18,3 +18,25 @@ C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\
 C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\refint\E-Learning.Infrastructure.dll
 C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\E-Learning.Infrastructure.pdb
 C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\ref\E-Learning.Infrastructure.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\bin\Debug\net8.0\E-Learning.Infrastructure.deps.json
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\bin\Debug\net8.0\E-Learning.Infrastructure.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\bin\Debug\net8.0\E-Learning.Infrastructure.pdb
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\bin\Debug\net8.0\E-Learning.Application.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\bin\Debug\net8.0\E-Learning.Context.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\bin\Debug\net8.0\E-Learning.Dtos.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\bin\Debug\net8.0\E-Learning.Models.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\bin\Debug\net8.0\E-Learning.Application.pdb
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\bin\Debug\net8.0\E-Learning.Context.pdb
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\bin\Debug\net8.0\E-Learning.Dtos.pdb
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\bin\Debug\net8.0\E-Learning.Models.pdb
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\E-Learning.Infrastructure.csproj.AssemblyReference.cache
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\E-Learning.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\E-Learning.Infrastructure.AssemblyInfoInputs.cache
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\E-Learning.Infrastructure.AssemblyInfo.cs
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\E-Learning.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\E-Learning.Infrastructure.sourcelink.json
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\E-Learni.1C12C766.Up2Date
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\E-Learning.Infrastructure.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\refint\E-Learning.Infrastructure.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\E-Learning.Infrastructure.pdb
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Infrastructure\obj\Debug\net8.0\ref\E-Learning.Infrastructure.dll

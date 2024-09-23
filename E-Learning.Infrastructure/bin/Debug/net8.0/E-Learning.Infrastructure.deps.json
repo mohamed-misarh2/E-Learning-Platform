@@ -221,6 +221,7 @@
       "E-Learning.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "E-Learning.Dtos": "1.0.0",
           "E-Learning.Models": "1.0.0"
         },
         "runtime": {
@@ -234,6 +235,11 @@
         },
         "runtime": {
           "E-Learning.Context.dll": {}
+        }
+      },
+      "E-Learning.Dtos/1.0.0": {
+        "runtime": {
+          "E-Learning.Dtos.dll": {}
         }
       },
       "E-Learning.Models/1.0.0": {
@@ -391,6 +397,11 @@
       "sha512": ""
     },
     "E-Learning.Context/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "E-Learning.Dtos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
