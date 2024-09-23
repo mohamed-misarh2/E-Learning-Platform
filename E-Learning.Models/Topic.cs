@@ -8,5 +8,6 @@ namespace E_Learning.Models
 {
     public class Topic : BaseEntity
     {
+        public string Name { get; set; }
     }
 }
