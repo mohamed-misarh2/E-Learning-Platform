@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.View\\E-Learning.View.csproj": {}
+    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.View\\E-Learning.View.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj": {
+    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj",
+        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj",
         "projectName": "E-Learning.Application",
-        "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj",
-        "packagesPath": "C:\\Users\\GAMA\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Application\\obj\\",
+        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj",
+        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GAMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,18 +22,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
-                "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj"
+              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
+                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj"
               },
-              "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
-                "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj"
+              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
+                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj"
               }
             }
           }
@@ -42,11 +41,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -74,21 +68,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj": {
+    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj",
+        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj",
         "projectName": "E-Learning.Context",
-        "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj",
-        "packagesPath": "C:\\Users\\GAMA\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Context\\obj\\",
+        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj",
+        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GAMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,15 +90,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
-                "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj"
+              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
+                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj"
               }
             }
           }
@@ -113,11 +106,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -145,21 +133,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
+    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj",
+        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj",
         "projectName": "E-Learning.Dtos",
-        "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj",
-        "packagesPath": "C:\\Users\\GAMA\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Dtos\\obj\\",
+        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj",
+        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GAMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -167,7 +155,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -180,11 +167,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -206,21 +188,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Infrastructure\\E-Learning.Infrastructure.csproj": {
+    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Infrastructure\\E-Learning.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Infrastructure\\E-Learning.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Infrastructure\\E-Learning.Infrastructure.csproj",
         "projectName": "E-Learning.Infrastructure",
-        "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Infrastructure\\E-Learning.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\GAMA\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Infrastructure\\E-Learning.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GAMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -228,18 +210,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj": {
-                "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj"
+              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj": {
+                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj"
               },
-              "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj": {
-                "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj"
+              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj": {
+                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj"
               }
             }
           }
@@ -248,11 +229,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -274,21 +250,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
+    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
+        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
         "projectName": "E-Learning.Models",
-        "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
-        "packagesPath": "C:\\Users\\GAMA\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Models\\obj\\",
+        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
+        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GAMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -296,7 +272,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -309,11 +284,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -341,21 +311,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.View\\E-Learning.View.csproj": {
+    "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.View\\E-Learning.View.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.View\\E-Learning.View.csproj",
+        "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.View\\E-Learning.View.csproj",
         "projectName": "E-Learning.View",
-        "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.View\\E-Learning.View.csproj",
-        "packagesPath": "C:\\Users\\GAMA\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.View\\obj\\",
+        "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.View\\E-Learning.View.csproj",
+        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.View\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GAMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -363,24 +333,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj": {
-                "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj"
+              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj": {
+                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Application\\E-Learning.Application.csproj"
               },
-              "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj": {
-                "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj"
+              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj": {
+                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Context\\E-Learning.Context.csproj"
               },
-              "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
-                "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj"
+              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj": {
+                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Dtos\\E-Learning.Dtos.csproj"
               },
-              "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Infrastructure\\E-Learning.Infrastructure.csproj": {
-                "projectPath": "E:\\Projects\\Udemy Website\\E-Learning Project\\E-Learning-Platform\\E-Learning.Infrastructure\\E-Learning.Infrastructure.csproj"
+              "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Infrastructure\\E-Learning.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Infrastructure\\E-Learning.Infrastructure.csproj"
               }
             }
           }
@@ -389,11 +358,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -438,7 +402,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
