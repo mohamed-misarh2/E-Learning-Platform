@@ -16,7 +16,7 @@ namespace E_Learning.Application.Services
         Task<ResultView<ReviewDTO>> HardDelete(Guid reviewid);
         Task<ResultView<ReviewDTO>> SoftDelete(Guid reviewid);
         Task<ResultView<ReviewDTO>> GetAllReview();
-        Task<ResultView<ReviewDTO>> GetAllReviewPagination(int PageNumber, int Count);
+        Task<ResultView<ReviewDTO>> GetAllReviewPagination(int iteams, int Count);
 
 
     }
