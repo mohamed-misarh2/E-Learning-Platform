@@ -8,5 +8,8 @@ namespace E_Learning.Dtos.Topic
 {
     public class CreateOrUpdateTopicDTO
     {
+        public Guid Id { get; set; }
+        
+        public string Name { get; set; }
     }
 }

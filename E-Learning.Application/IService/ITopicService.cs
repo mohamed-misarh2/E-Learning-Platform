@@ -1,4 +1,7 @@
-﻿using System;
+﻿using E_Learning.Dtos.Topic;
+using E_Learning.Dtos.ViewResult;
+using E_Learning.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +11,12 @@ namespace E_Learning.Application.IService
 {
     public interface ITopicService
     {
-
+        Task<ResultView<CreateOrUpdateTopicDTO>> CreateTopicAsync(Topic topic);
+        Task<ResultView<CreateOrUpdateTopicDTO>>UpdateTopicAsync(Topic topic);
+        Task<ResultView<CreateOrUpdateTopicDTO>> HardDeleteTopicAsync(Guid topicId);
+        Task<ResultView<CreateOrUpdateTopicDTO>> SoftDeleteTopicAsync(Guid topicId);
+        Task<ResultView<List<GetAllTopicDTO>>> GetAllTopicsAsync();
+        Task<ResultView<GetAllTopicDTO>> GetTopicAsync(Guid topicId);
+        
     }
 }

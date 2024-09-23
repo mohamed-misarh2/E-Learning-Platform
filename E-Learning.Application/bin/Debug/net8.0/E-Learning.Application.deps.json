@@ -9,6 +9,7 @@
       "E-Learning.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "E-Learning.Dtos": "1.0.0",
           "E-Learning.Models": "1.0.0"
         },
         "runtime": {
@@ -145,6 +146,11 @@
           }
         }
       },
+      "E-Learning.Dtos/1.0.0": {
+        "runtime": {
+          "E-Learning.Dtos.dll": {}
+        }
+      },
       "E-Learning.Models/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Identity.Stores": "8.0.8"
@@ -244,6 +250,11 @@
       "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
       "path": "microsoft.extensions.primitives/8.0.0",
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    },
+    "E-Learning.Dtos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "E-Learning.Models/1.0.0": {
       "type": "project",
