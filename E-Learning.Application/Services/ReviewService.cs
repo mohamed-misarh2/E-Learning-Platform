@@ -99,8 +99,21 @@ namespace E_Learning.Application.Services
             }
         }
 
+        public async Task<ResultView<ReviewDTO>> GetAllReview()
+        {
+           var reviews = await _reviewRepository.GetAllAsync();
+           var Allreviews = _mapper.Map<ReviewDTO>(reviews);
+            return new ResultView<ReviewDTO> { Entity = Allreviews, IsSuccess = true, Message = "All Reviews" };
 
+        }
 
+        public async Task<ResultView<ReviewDTO>> GetAllReviewPagination(int PageNumber , int Count)
+        {
+            var AllReviews = await _reviewRepository.GetAllAsync();
+            var Reviewspiginted  = AllReviews.Skip((PageNumber-1)* Count).Take(Count).ToList();
+            var Reviews = _mapper.Map<ReviewDTO>(Reviewspiginted);
+            return new ResultView<ReviewDTO> { Entity = Reviews, IsSuccess = true, Message = "Reviews piginted done" };
 
+        }
     }
 }
