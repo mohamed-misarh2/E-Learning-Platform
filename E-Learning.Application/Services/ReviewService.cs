@@ -107,10 +107,10 @@ namespace E_Learning.Application.Services
 
         }
 
-        public async Task<ResultView<ReviewDTO>> GetAllReviewPagination(int PageNumber , int Count)
+        public async Task<ResultView<ReviewDTO>> GetAllReviewPagination(int iteams , int Count)
         {
             var AllReviews = await _reviewRepository.GetAllAsync();
-            var Reviewspiginted  = AllReviews.Skip((PageNumber-1)* Count).Take(Count).ToList();
+            var Reviewspiginted  = AllReviews.Skip((iteams - 1)* Count).Take(iteams).ToList();
             var Reviews = _mapper.Map<ReviewDTO>(Reviewspiginted);
             return new ResultView<ReviewDTO> { Entity = Reviews, IsSuccess = true, Message = "Reviews piginted done" };
 
