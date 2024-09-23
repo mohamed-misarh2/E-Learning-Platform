@@ -14,3 +14,19 @@ C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\
 C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\refint\E-Learning.Context.dll
 C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\E-Learning.Context.pdb
 C:\Users\A\source\repos\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\ref\E-Learning.Context.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\bin\Debug\net8.0\E-Learning.Context.deps.json
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\bin\Debug\net8.0\E-Learning.Context.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\bin\Debug\net8.0\E-Learning.Context.pdb
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\bin\Debug\net8.0\E-Learning.Models.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\bin\Debug\net8.0\E-Learning.Models.pdb
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\E-Learning.Context.csproj.AssemblyReference.cache
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\E-Learning.Context.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\E-Learning.Context.AssemblyInfoInputs.cache
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\E-Learning.Context.AssemblyInfo.cs
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\E-Learning.Context.csproj.CoreCompileInputs.cache
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\E-Learning.Context.sourcelink.json
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\E-Learni.5CBE7BAF.Up2Date
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\E-Learning.Context.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\refint\E-Learning.Context.dll
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\E-Learning.Context.pdb
+E:\Projects\Udemy Website\E-Learning Project\E-Learning-Platform\E-Learning.Context\obj\Debug\net8.0\ref\E-Learning.Context.dll
