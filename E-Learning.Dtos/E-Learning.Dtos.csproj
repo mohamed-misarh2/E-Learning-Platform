@@ -7,11 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-<<<<<<< HEAD
-=======
+
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="2.2.0" />
   </ItemGroup>
 
->>>>>>> 56e2985a7101f3a234d095b0db7e79ce15ff8d89
+
 </Project>

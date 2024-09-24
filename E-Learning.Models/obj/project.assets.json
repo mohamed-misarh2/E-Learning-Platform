@@ -559,17 +559,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\A\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\ziadr\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
->>>>>>> 56e2985a7101f3a234d095b0db7e79ce15ff8d89
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
       "projectName": "E-Learning.Models",
       "projectPath": "C:\\Users\\A\\source\\repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
@@ -578,20 +572,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\ziadr\\Source\\Repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
-      "projectName": "E-Learning.Models",
-      "projectPath": "C:\\Users\\ziadr\\Source\\Repos\\E-Learning-Platform\\E-Learning.Models\\E-Learning.Models.csproj",
-      "packagesPath": "C:\\Users\\ziadr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ziadr\\Source\\Repos\\E-Learning-Platform\\E-Learning.Models\\obj\\",
-      "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
-      "configFilePaths": [
-        "C:\\Users\\ziadr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> 56e2985a7101f3a234d095b0db7e79ce15ff8d89
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -611,14 +591,6 @@
         "warnAsError": [
           "NU1605"
         ]
-<<<<<<< HEAD
-=======
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
->>>>>>> 56e2985a7101f3a234d095b0db7e79ce15ff8d89
       }
     },
     "frameworks": {
@@ -646,11 +618,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
->>>>>>> 56e2985a7101f3a234d095b0db7e79ce15ff8d89
       }
     }
   }
