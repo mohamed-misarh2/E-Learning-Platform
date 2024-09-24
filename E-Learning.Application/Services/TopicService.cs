@@ -58,7 +58,7 @@ namespace E_Learning.Application.Services
 
         public async Task<ResultDataList<GetAllTopicDTO>> GetAllTopicsAsync()
         {
-            try { } catch (Exception ex) { }
+            try {
             var Topics = await _topicRepository.GetAllAsync();
 
             var TopicDTO = Topics.Where(c => c.IsDeleted == false).Select(c => new GetAllTopicDTO
@@ -73,10 +73,19 @@ namespace E_Learning.Application.Services
             result.Entities = TopicDTO;
             result.Count = TopicDTO.Count();
             return result;
+            }
+            catch (Exception ex) 
+            {
+                ResultDataList<GetAllTopicDTO> result = new ResultDataList<GetAllTopicDTO>();
+                result.Entities = null;
+                result.Count = 0;
+                return result;
+            }
         }
 
         public async Task<ResultView<GetAllTopicDTO>> GetTopicAsync(Guid topicId)
         {
+            try { 
             var Topic = await _topicRepository.GetByIdAsync(topicId);
             if(Topic == null)
             {
@@ -85,6 +94,11 @@ namespace E_Learning.Application.Services
             }
             var TopicDto = _mapper.Map<GetAllTopicDTO>(Topic);
             return new ResultView<GetAllTopicDTO> { Entity = TopicDto, IsSuccess = true, Message="Topic found Successfully" };
+            }
+            catch (Exception ex) 
+            {
+                return new ResultView<GetAllTopicDTO> { Entity = null, IsSuccess = false, Message = "Something went wrong" };
+            }
         }
 
         public async Task<ResultView<CreateOrUpdateTopicDTO>> HardDeleteTopicAsync(Guid topicId)
@@ -94,7 +108,7 @@ namespace E_Learning.Application.Services
                 var Topic = await _topicRepository.GetByIdAsync(topicId);
                 if (Topic == null)
                 {
-                    return new ResultView<CreateOrUpdateTopicDTO> { Entity = null, IsSuccess = true, Message = "Topic is not Found" };
+                    return new ResultView<CreateOrUpdateTopicDTO> { Entity = null, IsSuccess = false, Message = "Topic is not Found" };
 
                 }
                 else
@@ -120,7 +134,7 @@ namespace E_Learning.Application.Services
                 var Topic = await _topicRepository.GetByIdAsync(topicId);
                 if (Topic == null) 
                 {
-                    return new ResultView<CreateOrUpdateTopicDTO> { Entity = null, IsSuccess = true, Message = "This Topic is not found" };
+                    return new ResultView<CreateOrUpdateTopicDTO> { Entity = null, IsSuccess = false, Message = "This Topic is not found" };
 
                 }
                 else 
