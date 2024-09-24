@@ -1,3 +1,4 @@
+
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
@@ -12,6 +13,7 @@
 /E-Learning.Application/bin/Debug/net8.0/E-Learning.Application.deps.json
 
 # Ignore Visual Studio temporary files
+
 *.suo
 *.user
 *.userosscache
