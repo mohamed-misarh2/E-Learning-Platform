@@ -1,7 +1,7 @@
 ﻿using E_Learning.Dtos.Category;
 using E_Learning.Dtos.ViewResult;
 
-namespace E_Learning.Application.Services
+namespace E_Learning.Application.IService
 {
     public interface ICategoryService
     {
