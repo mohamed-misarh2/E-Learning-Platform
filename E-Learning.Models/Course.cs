@@ -9,7 +9,9 @@ namespace E_Learning.Models
     public class Course : BaseEntity
     {
         public string Title { get; set; } = string.Empty;
+        public string Ar_Title { get; set; } = string.Empty;
         public string? Description { get; set; }
+        public string? Ar_Description { get; set; }
         public decimal Price { get; set; }
         public string? CourseImage { get; set; }
         public string? PromotionalVideo { get; set; }
@@ -19,16 +21,17 @@ namespace E_Learning.Models
 
 
         // Foreign Keys
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public User Instructor { get; set; }
 
-        public int TopicId { get; set; }
-        public Topic Topic { get; set; }
+        public Guid TopicId { get; set; }
+        public Topic? Topic { get; set; }
 
 
 
         // Relationships
         public ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
+        public ICollection<OrderCourse> OrderCourses { get; set; } = new List<OrderCourse>();
         public ICollection<Review> Reviews { get; set; } = new List<Review>();
     }
 }

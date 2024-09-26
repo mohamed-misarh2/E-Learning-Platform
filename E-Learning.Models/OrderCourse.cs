@@ -8,10 +8,10 @@ namespace E_Learning.Models
 {
     public class OrderCourse:BaseEntity
     {
-        public int OrderId { get; set; }
-        public Order Order { get; set; }
+        public Guid OrderId { get; set; }
+        public Order? Order { get; set; }
 
-        public int CourseId { get; set; }
-        public Course Course { get; set; }
+        public Guid CourseId { get; set; }
+        public Course? Course { get; set; }
     }
 }

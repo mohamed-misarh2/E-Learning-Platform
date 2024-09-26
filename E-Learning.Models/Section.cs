@@ -9,10 +9,11 @@ namespace E_Learning.Models
     public class Section : BaseEntity
     {
         public string Title { get; set; } = string.Empty;
+        public string Ar_Title { get; set; } = string.Empty;
 
         // Foreign Key
-        public int CourseId { get; set; }
-        public Course Course { get; set; }
+        public Guid CourseId { get; set; }
+        public Course? Course { get; set; }
 
         public ICollection<Lecture> Lectures { get; set; } = new List<Lecture>();
        // public ICollection<Quiz> Quizzes { get; set; } = new List<Quiz>();

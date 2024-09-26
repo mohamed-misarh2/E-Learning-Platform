@@ -9,11 +9,11 @@ namespace E_Learning.Models
     public class Assignment:BaseEntity
     {
         public string Title { get; set; } = string.Empty;
-        public string Description { get; set; } = string.Empty;
-        public DateTime DueDate { get; set; }
+        public string? Description { get; set; } 
+        public DateTime? DueDate { get; set; }
 
         // Foreign Key
-        public int SectionId { get; set; }
-        public Section Section { get; set; }
+        public Guid SectionId { get; set; }
+        public Section? Section { get; set; }
     }
 }

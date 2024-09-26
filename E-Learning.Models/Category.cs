@@ -9,7 +9,7 @@ namespace E_Learning.Models
     public class Category: BaseEntity
     {
         public string Name { get; set; } = string.Empty;
-        public string Slug { get; set; } = string.Empty;
+        public string? Slug { get; set; }
         public string Ar_Name { get; set; } = string.Empty;
 
         // Relationships

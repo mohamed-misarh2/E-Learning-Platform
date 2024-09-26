@@ -9,11 +9,12 @@ namespace E_Learning.Models
     public class Lecture : BaseEntity
     {
         public string Title { get; set; } = string.Empty;
+        public string Ar_Title { get; set; } = string.Empty;
         public string VideoUrl { get; set; } = string.Empty;
         public int Duration { get; set; }
 
         // Foreign Key
-        public int SectionId { get; set; }
-        public Section Section { get; set; }
+        public Guid SectionId { get; set; }
+        public Section? Section { get; set; }
     }
 }
