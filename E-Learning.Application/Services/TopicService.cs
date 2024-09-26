@@ -66,7 +66,7 @@ namespace E_Learning.Application.Services
                 Id = c.Id,
                 Name = c.Name,
                 NumberOfCourses = c.Courses.Count(),
-                NumberOfStudents = c.Courses.Select(i => i.UserId).Sum()
+                NumberOfStudents = c.Courses.Select(i => i.UserId).Count()
             }).ToList();
 
             ResultDataList<GetAllTopicDTO> result = new ResultDataList<GetAllTopicDTO>();

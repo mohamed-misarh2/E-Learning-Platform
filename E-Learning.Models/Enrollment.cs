@@ -11,10 +11,10 @@ namespace E_Learning.Models
         public DateTime EnrolledAt { get; set; } = DateTime.UtcNow;
 
         // Foreign Keys
-        public int UserId { get; set; }
-        public User User { get; set; }
+        public string UserId { get; set; }
+        public User? User { get; set; }
 
-        public int CourseId { get; set; }
-        public Course Course { get; set; }
+        public Guid CourseId { get; set; }
+        public Course? Course { get; set; }
     }
 }

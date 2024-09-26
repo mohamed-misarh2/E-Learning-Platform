@@ -13,7 +13,7 @@ namespace E_Learning.Models
         public string Ar_Name { get; set; } = string.Empty;
 
         // Foreign Key
-        public int CategoryId { get; set; }
+        public Guid CategoryId { get; set; }
         public Category? Category { get; set; }
         public ICollection<Topic> Topics { get; set; } = new List<Topic>();
     }
