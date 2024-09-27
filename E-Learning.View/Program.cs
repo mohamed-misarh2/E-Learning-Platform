@@ -1,5 +1,9 @@
 
+using E_Learning.Application.Contract;
+using E_Learning.Application.IService;
+using E_Learning.Application.Services;
 using E_Learning.Context;
+using E_Learning.Infrastructure;
 using E_Learning.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +22,17 @@ namespace E_Learning.View
             builder.Services.AddDbContext<ELearningContext>(options =>
                options.UseSqlServer(builder.Configuration.GetConnectionString("Database")));
             builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<ELearningContext>();
+            builder.Services.AddScoped<ITopicService,TopicService>();
+            builder.Services.AddScoped<IReviewService, ReviewService>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<ISubCategoryService, SubCategoryService>();
+            builder.Services.AddScoped<IUserService, UserService>();
 
+            builder.Services.AddScoped<ITopicRepository, TopicRepository>();
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<ISubCategoryRepository, SubCategoryRepository>();
+            builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
                
             builder.Services.AddControllers();

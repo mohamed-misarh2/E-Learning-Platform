@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using E_Learning.Application.Contract;
+using E_Learning.Application.IService;
 using E_Learning.Dtos.Category;
 using E_Learning.Dtos.ViewResult;
 using E_Learning.Models;
@@ -128,7 +129,7 @@ namespace E_Learning.Application.Services
         {
             var category = await _categoryRepository.GetByIdAsync(id);
             var categoryDto = _mapper.Map<CategoryDto>(category);
-            return new ResultView<CategoryDto> { Entity = categoryDto, IsSuccess = true };
+            return new ResultView<CategoryDto> { Entity = categoryDto, IsSuccess = true , Message = "Category Found" };
         }
     }
 }

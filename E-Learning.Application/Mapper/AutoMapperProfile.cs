@@ -1,6 +1,11 @@
 ﻿using AutoMapper;
 using E_Learning.Dtos.Category;
+using E_Learning.Dtos.Review;
+using E_Learning.Dtos.SubCategory;
+using E_Learning.Dtos.Topic;
+using E_Learning.Dtos.User;
 using E_Learning.Models;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +19,13 @@ namespace E_Learning.Application.Mapper
         public AutoMapperProfile()
         {
             CreateMap<CategoryDto, Category>().ReverseMap();
+            CreateMap<SubCategoryDto, SubCategory>().ReverseMap();
+            CreateMap<CreateOrUpdateTopicDTO, Topic>().ReverseMap();
+            CreateMap<GetAllTopicDTO, Topic>().ReverseMap();
+            CreateMap<ReviewDTO, Review>().ReverseMap();
+            CreateMap<UserDTO, User>().ReverseMap();
+            CreateMap<UserLoginDTO, User>().ReverseMap();
+            CreateMap<UserLoginInfo, User>().ReverseMap();
         }
     }
 }

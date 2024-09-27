@@ -15,12 +15,12 @@ namespace E_Learning.Infrastructure
         {
         }
 
-        Task<User> IUserRepository.ApproveUserAsync(int userId)
+        public Task<User> ApproveUserAsync(int userId)
         {
             throw new NotImplementedException();
         }
 
-        Task<User> IUserRepository.ChangePasswordAsync(int userId, string newPassword)
+        public Task<User> ChangePasswordAsync(int userId, string newPassword)
         {
             throw new NotImplementedException();
         }
