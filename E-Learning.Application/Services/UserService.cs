@@ -165,8 +165,8 @@ namespace E_Learning.Application.Services
 
         public async Task<ResultView<List<UserDTO>>> GetAllUsersPages(int items, int pagenumber)
         {
-            var AlldAta = (_userManager.Users);
-            if (AlldAta == null)
+            var Alldata = (_userManager.Users);
+            if (Alldata == null)
             {
                 return new ResultView<List<UserDTO>>
                 {
@@ -175,7 +175,7 @@ namespace E_Learning.Application.Services
                     Message = "No users found."
                 };
             }
-            var userlist = await AlldAta.Skip(items * (pagenumber - 1)).Take(items).ToListAsync();
+            var userlist = await Alldata.Skip(items * (pagenumber - 1)).Take(items).ToListAsync();
             var userDTOs = _mapper.Map<List<UserDTO>>(userlist);
 
             return new ResultView<List<UserDTO>>

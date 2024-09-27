@@ -14,5 +14,15 @@ namespace E_Learning.Infrastructure
         public UserRepository(ELearningContext context) : base(context)
         {
         }
+
+        Task<User> IUserRepository.ApproveUserAsync(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<User> IUserRepository.ChangePasswordAsync(int userId, string newPassword)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -17,15 +17,12 @@ namespace E_Learning.Models
         public int RatingCount { get; set; } = 0;
         public int EnrollmentsCount { get; set; } = 0;
 
-
         // Foreign Keys
         public int UserId { get; set; }
         public User Instructor { get; set; }
 
         public int TopicId { get; set; }
         public Topic Topic { get; set; }
-
-
 
         // Relationships
         public ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
