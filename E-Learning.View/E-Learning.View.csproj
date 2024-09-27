@@ -19,10 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\E-Learning.Application\E-Learning.Application.csproj" />
     <ProjectReference Include="..\E-Learning.Context\E-Learning.Context.csproj" />
     <ProjectReference Include="..\E-Learning.Dtos\E-Learning.Dtos.csproj" />
