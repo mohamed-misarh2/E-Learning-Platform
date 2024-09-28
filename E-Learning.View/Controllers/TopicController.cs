@@ -1,5 +1,6 @@
 ﻿using E_Learning.Application.IService;
 using E_Learning.Application.Services;
+using E_Learning.Dtos.Topic;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -21,32 +22,70 @@ namespace E_Learning.View.Controllers
         public async Task<IActionResult> Get()
         {
           var topics=  ( await _topicService.GetAllTopicsAsync());
-            return  Ok(topics.Entities.Count);
+            if(topics!=null)
+              return  Ok(topics.Entities);
+            else 
+                return Ok(null);
         }
 
         // GET api/<TopicController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<IActionResult> Get(Guid id)
         {
-            return "value";
+            var topic = (await _topicService.GetTopicAsync(id));
+            if (topic != null)
+                return Ok(topic);
+            else
+                return Ok(null);
         }
 
         // POST api/<TopicController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> Post(CreateOrUpdateTopicDTO topicDTO)
         {
+            if (ModelState.IsValid) 
+            {
+                var NewTopic= await _topicService.CreateTopicAsync(topicDTO);
+                if(NewTopic.IsSuccess)
+                  return Ok(NewTopic);
+                else
+                    return BadRequest(NewTopic.Message);
+            }
+            else 
+                return BadRequest("InValid Data");
         }
 
         // PUT api/<TopicController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<IActionResult> Put( CreateOrUpdateTopicDTO topicDTO)
         {
+            
+            if (ModelState.IsValid)
+            {
+                var UpdatedTopic = await _topicService.UpdateTopicAsync(topicDTO);
+                if (UpdatedTopic.IsSuccess)
+                    return Ok(UpdatedTopic.Entity);
+                else
+                    return BadRequest(UpdatedTopic.Message);
+
+            }
+            else
+                return BadRequest("InValid Data");
         }
 
         // DELETE api/<TopicController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(Guid id)
         {
+            var topic = await _topicService.GetTopicAsync(id);
+            if (topic != null) 
+            {
+              var deletedTopic=  await _topicService.SoftDeleteTopicAsync(id);
+                if (deletedTopic.IsSuccess)
+                    return Ok(topic);
+                else return BadRequest(deletedTopic.Message);
+            }
+            return BadRequest("topic Not found");
         }
     }
 }

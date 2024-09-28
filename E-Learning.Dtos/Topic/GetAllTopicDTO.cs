@@ -10,6 +10,7 @@ namespace E_Learning.Dtos.Topic
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
+        public string SubCategoryName { get; set; }
         public int  NumberOfCourses {get; set; }
         public int NumberOfStudents { get; set; }
     }

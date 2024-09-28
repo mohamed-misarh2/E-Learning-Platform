@@ -5,6 +5,7 @@ using E_Learning.Dtos.Category;
 using E_Learning.Dtos.Topic;
 using E_Learning.Dtos.ViewResult;
 using E_Learning.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -61,10 +62,11 @@ namespace E_Learning.Application.Services
             try {
             var Topics = await _topicRepository.GetAllAsync();
 
-            var TopicDTO = Topics.Where(c => c.IsDeleted == false).Select(c => new GetAllTopicDTO
+            var TopicDTO = Topics.Where(c => c.IsDeleted == false).Include(i=>i.SubCategory).Select(c => new GetAllTopicDTO
             {
                 Id = c.Id,
                 Name = c.Name,
+                SubCategoryName=c.SubCategory.Name,
                 NumberOfCourses = c.Courses.Count(),
                 NumberOfStudents = c.Courses.Select(i => i.UserId).Count()
             }).ToList();
@@ -159,7 +161,9 @@ namespace E_Learning.Application.Services
             ResultView<CreateOrUpdateTopicDTO> result = new();
             try
             {
-                var oldTopic = await _topicRepository.GetByIdAsync(topic.Id);
+                var oldTopic=(await _topicRepository.GetAllAsync()).AsNoTracking().FirstOrDefault(t=>t.Id==topic.Id);
+               // var oldTopic = (await _topicRepository.GetByIdAsync(topic.Id));
+               
               
                 if (oldTopic == null)
                 {
