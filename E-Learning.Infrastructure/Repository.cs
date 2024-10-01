@@ -18,10 +18,12 @@ namespace E_Learning.Infrastructure
         {
             return (await _entities.AddAsync(entity)).Entity;
         }
+
         public Task<TEntity> UpdateAsync(TEntity entity)
         {
             return Task.FromResult(_entities.Update(entity).Entity);
         }
+
         public Task<TEntity> DeleteAsync(TEntity entity)
         {
             return Task.FromResult(_entities.Remove(entity).Entity);
@@ -36,7 +38,6 @@ namespace E_Learning.Infrastructure
         {
             return await _entities.FindAsync(id);
         }
-
 
         public async Task<int> SaveChangesAsync()
         {
