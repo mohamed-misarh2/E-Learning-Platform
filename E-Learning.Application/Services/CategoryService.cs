@@ -129,7 +129,7 @@ namespace E_Learning.Application.Services
         {
             var category = await _categoryRepository.GetByIdAsync(id);
             var categoryDto = _mapper.Map<CategoryDto>(category);
-            return new ResultView<CategoryDto> { Entity = categoryDto, IsSuccess = true };
+            return new ResultView<CategoryDto> { Entity = categoryDto, IsSuccess = true , Message = "Category Found" };
         }
     }
 }

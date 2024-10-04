@@ -14,7 +14,6 @@ namespace E_Learning.Dtos.User
         [Required(ErrorMessage = "Field can't be empty")]
         [DataType(DataType.EmailAddress, ErrorMessage = "E-mail is not valid")]
         public string Email { get; set; }
-        public string Country { get; set; }
 
         [Required]
         public string password { get; set; }

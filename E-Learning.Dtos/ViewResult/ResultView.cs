@@ -10,6 +10,6 @@ namespace E_Learning.Dtos.ViewResult
     {
         public bool IsSuccess { get; set; }
         public string Message { get; set; }
-        public TEntity Entity { get; set; }
+        public TEntity? Entity { get; set; }
     }
 }
