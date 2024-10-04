@@ -1,11 +1,6 @@
 ﻿using E_Learning.Application.Contract;
 using E_Learning.Context;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace E_Learning.Infrastructure
 {
@@ -23,10 +18,12 @@ namespace E_Learning.Infrastructure
         {
             return (await _entities.AddAsync(entity)).Entity;
         }
+
         public Task<TEntity> UpdateAsync(TEntity entity)
         {
             return Task.FromResult(_entities.Update(entity).Entity);
         }
+
         public Task<TEntity> DeleteAsync(TEntity entity)
         {
             return Task.FromResult(_entities.Remove(entity).Entity);
@@ -41,7 +38,6 @@ namespace E_Learning.Infrastructure
         {
             return await _entities.FindAsync(id);
         }
-
 
         public async Task<int> SaveChangesAsync()
         {

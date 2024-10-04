@@ -54,7 +54,16 @@ namespace E_Learning.Application.Services
 
             try
             {
-                await CheckOrCreateRole(RoleName);
+                string roleNameToUse;
+                if (string.IsNullOrEmpty(RoleName))
+                {
+                    roleNameToUse = "user";
+                }
+                else
+                {
+                    await CheckOrCreateRole(RoleName);
+                    roleNameToUse = RoleName;
+                }
 
                 var newUser = new User
                 {
@@ -75,7 +84,7 @@ namespace E_Learning.Application.Services
                     };
                 }
 
-                await _userManager.AddToRoleAsync(newUser, RoleName);
+                await _userManager.AddToRoleAsync(newUser, roleNameToUse);
 
                 var registeredUserDto = _mapper.Map<RegisterDTO>(newUser);
                 return new ResultView<RegisterDTO>()
@@ -91,45 +100,86 @@ namespace E_Learning.Application.Services
                 {
                     Entity = null,
                     IsSuccess = false,
-                    Message = "An unexpected error occurred during registration."
+                    Message = ex.Message
                 };
             }
-        }
+        }        
 
         public async Task<ResultView<UserDTO>> LoginAsync(UserLoginDTO userDto)
         {
-            var oldUser = await _userManager.FindByEmailAsync(userDto.Email);
+            // if (ModelState.IsValid)
+            if (userDto == null)
+            {
+                return new ResultView<UserDTO>
+                {
+                    Entity = null,
+                    Message = "Login data is missing",
+                    IsSuccess = false
+                };
+            }
 
+            if (string.IsNullOrWhiteSpace(userDto.Email) || string.IsNullOrWhiteSpace(userDto.password))
+            {
+                return new ResultView<UserDTO>
+                {
+                    Entity = null,
+                    Message = "Email and password are required",
+                    IsSuccess = false
+                };
+            }
+
+            var oldUser = await _userManager.FindByEmailAsync(userDto.Email);
             if (oldUser == null)
             {
-                return new ResultView<UserDTO> { Entity = null, Message = "Email not found", IsSuccess = false };
+                return new ResultView<UserDTO>
+                {
+                    Entity = null,
+                    Message = "Email not found",
+                    IsSuccess = false
+                };
             }
 
-            //if (oldUser.IsBlocked == true)
-            //{
-            //    return new ResultView<GetAllUserDTO> { Entity = null, Message = "Blocked User", IsSuccess = false };
-            //}
+            if (await _userManager.IsLockedOutAsync(oldUser))
+            {
+                return new ResultView<UserDTO>
+                {
+                    Entity = null,
+                    Message = "Account locked due to too many failed login attempts",
+                    IsSuccess = false
+                };
+            }
 
             var result = await _signInManager.CheckPasswordSignInAsync(oldUser, userDto.password, lockoutOnFailure: false);
-
-            if (result.Succeeded)
+            if (!result.Succeeded)
             {
-                var userRoles = await _userManager.GetRolesAsync(oldUser);
-                var roleName = userRoles.FirstOrDefault();
-                UserDTO userObj = new UserDTO()
+                return new ResultView<UserDTO>
                 {
-                    Email = userDto.Email,
-                    Id = oldUser.Id,
-                    //IsBlocked = oldUser.IsBlocked,
-                    Role = roleName,
-                    FirstName = oldUser.FirstName,
-                    LastName = oldUser.LastName
+                    Entity = null,
+                    Message = "Invalid password",
+                    IsSuccess = false
                 };
-                await _signInManager.SignInAsync(oldUser, userDto.rememberMe);
-                return new ResultView<UserDTO> { Entity = userObj, Message = "Login Successfully", IsSuccess = true };
             }
 
-            return new ResultView<UserDTO> { Entity = null, Message = "Invalid password", IsSuccess = false };
+            var userRoles = await _userManager.GetRolesAsync(oldUser);
+            var roleName = userRoles.FirstOrDefault() ?? "No Role Assigned";
+
+            UserDTO userObj = new UserDTO()
+            {
+                Email = oldUser.Email ?? "No Email",
+                Id = oldUser.Id,
+                Role = roleName,
+                FirstName = oldUser.FirstName ?? "No First Name",
+                LastName = oldUser.LastName ?? "No Last Name"
+            };
+
+            await _signInManager.SignInAsync(oldUser, userDto.rememberMe);
+
+            return new ResultView<UserDTO>
+            {
+                Entity = userObj,
+                Message = "Login Successful",
+                IsSuccess = true
+            };
         }
 
         public async Task<bool> LogoutUser()
@@ -165,8 +215,8 @@ namespace E_Learning.Application.Services
 
         public async Task<ResultView<List<UserDTO>>> GetAllUsersPages(int items, int pagenumber)
         {
-            var AlldAta = (_userManager.Users);
-            if (AlldAta == null)
+            var Alldata = (_userManager.Users);
+            if (Alldata == null)
             {
                 return new ResultView<List<UserDTO>>
                 {
@@ -175,7 +225,7 @@ namespace E_Learning.Application.Services
                     Message = "No users found."
                 };
             }
-            var userlist = await AlldAta.Skip(items * (pagenumber - 1)).Take(items).ToListAsync();
+            var userlist = await Alldata.Skip(items * (pagenumber - 1)).Take(items).ToListAsync();
             var userDTOs = _mapper.Map<List<UserDTO>>(userlist);
 
             return new ResultView<List<UserDTO>>
@@ -188,16 +238,6 @@ namespace E_Learning.Application.Services
 
         public async Task<ResultView<UserDTO>> SoftDeleteUser(string email)
         {
-            if (string.IsNullOrWhiteSpace(email))
-            {
-                return new ResultView<UserDTO>
-                {
-                    Entity = null,
-                    IsSuccess = false,
-                    Message = "Email is required"
-                };
-            }
-
             try
             {
                 var user = await _userManager.FindByEmailAsync(email);
@@ -220,13 +260,12 @@ namespace E_Learning.Application.Services
                         Message = "User is already deleted"
                     };
                 }
-
                 user.IsDeleted = true;
+
                 await _userRepository.SaveChangesAsync();
                 //var result = await _UserManager.UpdateAsync(user);
 
                 var userDto = _mapper.Map<UserDTO>(user);
-
                 return new ResultView<UserDTO>
                 {
                     Entity = userDto,

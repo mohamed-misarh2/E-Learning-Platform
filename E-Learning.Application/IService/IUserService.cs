@@ -1,11 +1,5 @@
-﻿using E_Learning.Dtos.Category;
-using E_Learning.Dtos.User;
+﻿using E_Learning.Dtos.User;
 using E_Learning.Dtos.ViewResult;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace E_Learning.Application.IService
 {
