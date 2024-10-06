@@ -1,5 +1,6 @@
 ﻿using E_Learning.Dtos.User;
 using E_Learning.Dtos.ViewResult;
+using Microsoft.AspNetCore.Identity;
 
 namespace E_Learning.Application.IService
 {
@@ -11,6 +12,7 @@ namespace E_Learning.Application.IService
         Task<ResultView<List<UserDTO>>> GetAllUsers();
         Task<ResultView<List<UserDTO>>> GetAllUsersPages(int items, int pagenumber);
         Task<ResultView<UserDTO>> SoftDeleteUser(string email);
+        Task<IdentityResult> ConfirmEmailAsync(string userId, string token);
 
         //Task<ResultDataList<GetAllUserDTO>> GetAllInstructors();
 

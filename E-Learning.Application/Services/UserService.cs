@@ -15,15 +15,17 @@ namespace E_Learning.Application.Services
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IEmailService _emailService;
         private readonly IMapper _mapper;
 
         public UserService(IUserRepository userRepository
             , IMapper mapper, UserManager<User> userManager, SignInManager<User> signInManager,
-            RoleManager<IdentityRole> roleManager)
+            RoleManager<IdentityRole> roleManager, IEmailService emailService)
         {
             _userRepository = userRepository;
             _signInManager = signInManager;
             _roleManager = roleManager;
+            _emailService = emailService;
             _userManager = userManager;
             _mapper = mapper;
         }
@@ -70,7 +72,8 @@ namespace E_Learning.Application.Services
                     Email = account.Email,
                     FirstName = account.FirstName,
                     LastName = account.LastName,
-                    EmailConfirmed = true
+                    UserName = account.Email.Split("@")[0],
+                   // EmailConfirmed = true
                 };
 
                 var result = await _userManager.CreateAsync(newUser, account.password);
@@ -84,8 +87,15 @@ namespace E_Learning.Application.Services
                     };
                 }
 
-                await _userManager.AddToRoleAsync(newUser, roleNameToUse);
+               
+                var token = await _userManager.GenerateEmailConfirmationTokenAsync(newUser);
+                var confirmationLink = $"http://localhost:46580/api/User/confirm-email?userId={newUser.Id}&token={Uri.EscapeDataString(token)}";
 
+                // Send the email
+                await _emailService.SendEmailAsync(newUser.Email, "Confirm your email",
+                    $"Please confirm your email by clicking this link: <a href='{confirmationLink}'>Confirm Email</a>");
+
+                await _userManager.AddToRoleAsync(newUser, roleNameToUse);
                 var registeredUserDto = _mapper.Map<RegisterDTO>(newUser);
                 return new ResultView<RegisterDTO>()
                 {
@@ -278,6 +288,15 @@ namespace E_Learning.Application.Services
                 return new ResultView<UserDTO> { Entity = null, IsSuccess = false, Message = ex.Message };
 
             }
+        }
+        public async Task<IdentityResult> ConfirmEmailAsync(string userId, string token)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(token))
+            {
+                return IdentityResult.Failed(new IdentityError { Description = "User not found" });
+            }
+            return await _userManager.ConfirmEmailAsync(user, token);
         }
 
         //public async Task<ResultView<BlockUserDTO>> BlockOrUnBlockUser(BlockUserDTO blockUserDTO)

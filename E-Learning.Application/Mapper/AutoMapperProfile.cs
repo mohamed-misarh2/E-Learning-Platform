@@ -26,6 +26,8 @@ namespace E_Learning.Application.Mapper
             CreateMap<UserDTO, User>().ReverseMap();
             CreateMap<UserLoginDTO, User>().ReverseMap();
             CreateMap<UserLoginInfo, User>().ReverseMap();
+            CreateMap<RegisterDTO, User>().ReverseMap();
+   // .ForMember(dest => dest.SomeProperty, opt => opt.MapFrom(src => src.OtherProperty));
         }
     }
 }

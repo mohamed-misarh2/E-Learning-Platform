@@ -27,7 +27,7 @@ namespace E_Learning.View.Controllers
                 var result = await _userService.Registration(account, RoleName);
                 if (result.IsSuccess)
                 {
-                    return Ok(result);
+                    return Ok(new { message = "Registration successful. Please confirm your email." });
                 }
                 else
                 {
@@ -154,7 +154,24 @@ namespace E_Learning.View.Controllers
             }
         }
 
+        [HttpGet("confirm-email")]
+        public async Task<IActionResult> ConfirmEmail(string userId, string token)
 
+        {
+            if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(token))
+            {
+                return BadRequest("Invalid email confirmation request.");
+            }
+            
+            var result = await _userService.ConfirmEmailAsync(userId, token);
+
+            if (result.Succeeded)
+            {
+                return Ok(new { message = "Email confirmed successfully!" });
+            }
+
+            return BadRequest(result.Errors);
+        }
         //[HttpGet("GetAllInstrucors")]
         //[Authorize(Roles = "admin")]
         //public async Task<IActionResult> GetAllInstrucors()
