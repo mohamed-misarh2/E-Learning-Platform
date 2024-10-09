@@ -83,7 +83,7 @@ namespace E_Learning.View.Controllers
 
 
         [HttpGet("GetAllUsers")]
-        [Authorize(Roles = "admin")]
+        //[Authorize(Roles = "admin")]
         public async Task<IActionResult> GetAllUsers()
         {
             try
@@ -107,7 +107,7 @@ namespace E_Learning.View.Controllers
 
 
         [HttpGet("AllUsersPaging/{items}/{pageNumber}")]
-        [Authorize(Roles = "admin")]
+        //[Authorize(Roles = "admin")]
         public async Task<IActionResult> AllUsersPaging(int items, int pageNumber = 1)
         {
             try
@@ -131,7 +131,7 @@ namespace E_Learning.View.Controllers
 
 
         [HttpPost("DeleteUser")]
-        [Authorize(Roles = "admin")]
+        //[Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteUser([FromBody] string email)
         {
             try

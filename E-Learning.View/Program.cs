@@ -27,12 +27,15 @@ namespace E_Learning.View
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<ISubCategoryService, SubCategoryService>();
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<ICourseService, CourseService>();
+            builder.Services.AddScoped<IFileService, FileService>();
 
             builder.Services.AddScoped<ITopicRepository, TopicRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             builder.Services.AddScoped<ISubCategoryRepository, SubCategoryRepository>();
             builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
+            builder.Services.AddScoped<ICourseRepository, CourseRepository>();
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
                
             builder.Services.AddControllers();

@@ -67,6 +67,7 @@ namespace E_Learning.Application.Services
 
                 var newUser = new User
                 {
+                    UserName = account.UserName,
                     Email = account.Email,
                     FirstName = account.FirstName,
                     LastName = account.LastName,
@@ -74,14 +75,15 @@ namespace E_Learning.Application.Services
                 };
 
                 var result = await _userManager.CreateAsync(newUser, account.password);
+
                 if (!result.Succeeded)
                 {
-                    return new ResultView<RegisterDTO>()
-                    {
-                        Entity = null,
-                        IsSuccess = false,
-                        Message = $"Failed to register user. Error: {string.Join(", ", result.Errors)}"
-                    };
+                return new ResultView<RegisterDTO>()
+                {
+                    Entity = null,
+                    IsSuccess = false,
+                    Message = $"Failed to register user. Error: {string.Join(", ", result.Errors)}"
+                };
                 }
 
                 await _userManager.AddToRoleAsync(newUser, roleNameToUse);
@@ -190,8 +192,7 @@ namespace E_Learning.Application.Services
 
         public async Task<ResultView<List<UserDTO>>> GetAllUsers()
         {
-            var users = _userManager.Users;
-
+            var users = _userManager.Users.Where(u => !u.IsDeleted);
 
             if (users == null)
             {
@@ -202,14 +203,14 @@ namespace E_Learning.Application.Services
                     Message = "No users found."
                 };
             }
-            var userlist = await users.ToListAsync();
-            var userDTOs = _mapper.Map<List<UserDTO>>(userlist);
 
+            var userlist =await users.ToListAsync();
+            var userDTOs = _mapper.Map<List<UserDTO>>(userlist);
             return new ResultView<List<UserDTO>>
             {
                 Entity = userDTOs,
                 IsSuccess = true,
-                Message = "Successfully retrieved all users."
+                Message = $"Successfully retrieved all users. count = {userDTOs.Count}"
             };
         }
 

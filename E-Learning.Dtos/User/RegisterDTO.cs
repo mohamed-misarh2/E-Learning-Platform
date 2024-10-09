@@ -8,6 +8,9 @@ namespace E_Learning.Dtos.User
     public class RegisterDTO
     {
         [Required]
+        public string UserName { get; set; }
+
+        [Required]
         public string FirstName { get; set; }
         public string LastName { get; set; }
 

@@ -20,15 +20,15 @@ namespace E_Learning.Models
         public int EnrollmentsCount { get; set; } = 0;
 
         // Foreign Keys
-        public string UserId { get; set; }
-        public User Instructor { get; set; }
+        public string UserId { get; set; } = default!;
+        public virtual User Instructor { get; set; } = default!;
 
         public Guid TopicId { get; set; }
-        public Topic? Topic { get; set; }
+        public virtual Topic Topic { get; set; } = default!;
 
         // Relationships
-        public ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
-        public ICollection<OrderCourse> OrderCourses { get; set; } = new List<OrderCourse>();
-        public ICollection<Review> Reviews { get; set; } = new List<Review>();
+        public virtual ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
+        public virtual ICollection<OrderCourse> OrderCourses { get; set; } = new List<OrderCourse>();
+        public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
     }
 }
