@@ -69,7 +69,7 @@ namespace E_Learning.Application.Services
 
                 var newUser = new User
                 {
-                    UserName = account.UserName,
+                   // UserName = account.UserName,
                     Email = account.Email,
                     FirstName = account.FirstName,
                     LastName = account.LastName,

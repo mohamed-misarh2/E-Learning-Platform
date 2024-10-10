@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using E_Learning.Dtos.Category;
+using E_Learning.Dtos.Course;
 using E_Learning.Dtos.Review;
 using E_Learning.Dtos.SubCategory;
 using E_Learning.Dtos.Topic;
@@ -27,7 +28,9 @@ namespace E_Learning.Application.Mapper
             CreateMap<UserLoginDTO, User>().ReverseMap();
             CreateMap<UserLoginInfo, User>().ReverseMap();
             CreateMap<RegisterDTO, User>().ReverseMap();
-   // .ForMember(dest => dest.SomeProperty, opt => opt.MapFrom(src => src.OtherProperty));
+            CreateMap<CreateOrUpdateCourseDTO, Course>().ReverseMap();
+            CreateMap<CourseListDTO, Course>().ReverseMap();
+            CreateMap<CourseDTO, Course>().ReverseMap();
         }
     }
 }
