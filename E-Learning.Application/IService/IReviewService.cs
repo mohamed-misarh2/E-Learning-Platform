@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace E_Learning.Application.Services
+namespace E_Learning.Application.IService
 {
     public interface IReviewService
     {
-        Task<ResultView<ReviewDTO>>AddReview(ReviewDTO reviewDTO);
+        Task<ResultView<ReviewDTO>> AddReview(ReviewDTO reviewDTO);
         Task<ResultView<ReviewDTO>> UpdateReview(ReviewDTO reviewDTO);
         Task<ResultView<ReviewDTO>> HardDelete(Guid reviewid);
         Task<ResultView<ReviewDTO>> SoftDelete(Guid reviewid);
